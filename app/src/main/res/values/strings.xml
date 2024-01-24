@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">FundAllAssessment</string>
+    <string name="splash_screen_image">Splash screen image</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="cancel">Cancel</string>
+    <string name="benefits">Benefits</string>
+    <string name="let_s_get_started">Let’s get started</string>
+    <string name="your_first_step">Your first step toward a better financial lifestyle starts here.</string>
+    <string name="first_name">First name</string>
+    <string name="user_icon">User icon</string>
+    <string name="email_address">Email Address</string>
+    <string name="phone_number">Phone number</string>
+    <string name="got_invite_code">Got invite code?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="last_name">Last name</string>
+    <string name="password">Password</string>
+    <string name="already_a_member">Already a member?</string>
+    <string name="log_in">Log In</string>
+    <string name="by_clicking_on_sign_up_you_agree_to_our_terms_conditions_and_privacy_policy"><![CDATA[By clicking on Sign up, you agree to our terms & conditions and privacy policy.]]></string>
 </resources>
