@@ -1,6 +1,5 @@
-package com.example.fundallassessment
+package com.example.fundallassessment.fragments
 
-import android.graphics.Color
 import android.os.Bundle
 import android.text.Spannable
 import android.text.SpannableString
@@ -10,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
+import com.example.fundallassessment.R
 import com.example.fundallassessment.databinding.FragmentSignUpBinding
 
 class SignUpFragment : Fragment() {
