@@ -1,3 +1,47 @@
 <resources>
     <string name="app_name">FundAllAssessment</string>
+    <string name="splash_screen_image">Splash screen image</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="cancel">Cancel</string>
+    <string name="benefits">Benefits</string>
+    <string name="let_s_get_started">Let’s get started</string>
+    <string name="your_first_step">Your first step toward a better financial lifestyle starts here.</string>
+    <string name="first_name">First name</string>
+    <string name="user_icon">User icon</string>
+    <string name="email_address">Email Address</string>
+    <string name="phone_number">Phone number</string>
+    <string name="got_invite_code">Got invite code?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="last_name">Last name</string>
+    <string name="password">Password</string>
+    <string name="already_a_member">Already a member?</string>
+    <string name="log_in">Log In</string>
+    <string name="by_clicking_on_sign_up_you_agree_to_our_terms_conditions_and_privacy_policy"><![CDATA[By clicking on Sign up, you agree to our terms & conditions and privacy policy.]]></string>
+    <string name="welcome_back">Welcome back!</string>
+    <string name="we_miss_you_chimdi">We miss you, Chimdi</string>
+    <string name="chimdiifeoluwa_gmail_com">chimdiifeoluwa@gmail.com</string>
+    <string name="enter_you_password">Enter you password</string>
+    <string name="log_in_cap">LOG IN</string>
+    <string name="new_here">New here?</string>
+    <string name="create_account">Create Account</string>
+    <string name="fundall_e_wallet">Fundall e-Wallet</string>
+    <string name="next_icon">Next icon</string>
+    <string name="avatar">avatar</string>
+    <string name="income">Income</string>
+    <string name="spent">Spent</string>
+    <string name="analysis">analysis</string>
+    <string name="card_request">Card request</string>
+    <string name="request_card">Request Card</string>
+    <string name="analytics">Analytics</string>
+    <string name="car_fuel">Car fuel</string>
+    <string name="_20_day">$20/day</string>
+    <string name="_600">$600</string>
+    <string name="your_food_spending_is_still_on_track">Your food spending is still on track</string>
+    <string name="check_mark">Check mark</string>
+    <string name="background">Background</string>
+    <string name="today">Today</string>
+    <string name="view_all">View all</string>
+    <string name="cards">Cards</string>
 </resources>

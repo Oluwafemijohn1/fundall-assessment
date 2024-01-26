@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="start">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="CancelAndBenefits">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="LetGetStarted">
+        <item name="android:textSize">27sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="FirstStep">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+<!--    <style name="Widget.Shrine.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">-->
+<!--        <item name="hintTextAppearance">@style/TextAppearance.Shrine.TextInputLayout.HintText</item>-->
+<!--        <item name="hintTextColor">@color/textColorPrimary</item>-->
+<!--        <item name="android:paddingBottom">8dp</item>-->
+<!--        <item name="boxStrokeColor">@color/textInputOutlineColor</item>-->
+<!--    </style>-->
+
+    <style name="TextAppearance.Shrine.TextInputLayout.HintText" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="AppEditTextStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:background">@drawable/input_field_background</item>
+        <item name="android:textColorHint">@color/hint_text_color</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+
+    <style name="AppEditTextStyleLogin">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@drawable/input_field_background</item>
+        <item name="android:textColorHint">@color/hint_text_color</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+
+</resources>
