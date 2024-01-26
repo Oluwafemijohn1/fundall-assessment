@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".fragments.SignUpFragment">
+    tools:context=".ui.SignUpFragment">
 
 
     <TextView
@@ -29,6 +29,18 @@
         android:text="@string/benefits"
         android:textAppearance="@style/CancelAndBenefits"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/loader_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:indicatorColor="@color/white"
+        app:trackColor="@color/primary_color_deep"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -135,11 +147,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        android:autofillHints="password"
         android:drawableStart="@drawable/ic_lock"
         android:layout_marginTop="30dp"
         android:hint="@string/password"
-        android:inputType="textPassword"
+        android:inputType="numberPassword"
         app:layout_constraintTop_toBottomOf="@+id/phone_input"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -164,7 +175,7 @@
         app:layout_constraintTop_toBottomOf="@+id/password_input" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/sign_up_button"
         android:layout_width="199dp"
         android:layout_height="33dp"
         android:layout_marginTop="30dp"
@@ -183,10 +194,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/already_a_member"
-        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="@+id/sign_up_button"
         app:layout_constraintHorizontal_bias="0.205"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintStart_toStartOf="@+id/sign_up_button"
+        app:layout_constraintTop_toBottomOf="@+id/sign_up_button" />
 
     <TextView
         android:id="@+id/login_tv"
@@ -196,6 +207,7 @@
         android:layout_marginBottom="4dp"
         android:fontFamily="@font/founders_grotesk_bold_700"
         android:text="@string/log_in"
+        android:textColor="@color/black"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/already_have_an_account"
         app:layout_constraintStart_toEndOf="@+id/already_have_an_account" />
@@ -206,6 +218,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:layout_marginHorizontal="20dp"
+        android:textColor="@color/black"
+        android:textSize="10sp"
         android:text="@string/by_clicking_on_sign_up_you_agree_to_our_terms_conditions_and_privacy_policy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

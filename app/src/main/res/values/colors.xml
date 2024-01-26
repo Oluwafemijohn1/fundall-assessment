@@ -4,6 +4,11 @@
     <color name="white">#FFFFFFFF</color>
     <color name="transparent">#00000000</color>
     <color name="primary_color_1">#4CE895</color>
+    <color name="primary_color_deep">#016938</color>
     <color name="red" >#FF0000</color>
     <color name="hint_text_color">#979797</color>
+    <color name="_26352e">#26352E</color>
+    <color name="_4DE897">#4DE897</color>
+    <color name="row1">#4DE897</color>
+    <color name="row2">#FF1577</color>
 </resources>

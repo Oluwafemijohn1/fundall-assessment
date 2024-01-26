@@ -1,4 +1,4 @@
-package com.example.fundallassessment.fragments
+package com.example.fundallassessment.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater

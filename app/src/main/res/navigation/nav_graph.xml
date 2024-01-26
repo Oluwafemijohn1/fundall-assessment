@@ -7,32 +7,32 @@
 
     <fragment
         android:id="@+id/onboardingFragment"
-        android:name="com.example.fundallassessment.fragments.OnboardingFragment"
+        android:name="com.example.fundallassessment.ui.OnboardingFragment"
         android:label="fragment_onboarding"
         tools:layout="@layout/fragment_onboarding" />
     <fragment
         android:id="@+id/signUpFragment"
-        android:name="com.example.fundallassessment.fragments.SignUpFragment"
+        android:name="com.example.fundallassessment.ui.SignUpFragment"
         android:label="fragment_sign_up"
         tools:layout="@layout/fragment_sign_up" />
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.fundallassessment.fragments.LoginFragment"
+        android:name="com.example.fundallassessment.ui.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" />
     <fragment
         android:id="@+id/dashboardFragment"
-        android:name="com.example.fundallassessment.fragments.DashboardFragment"
+        android:name="com.example.fundallassessment.ui.DashboardFragment"
         android:label="fragment_dashboard"
         tools:layout="@layout/fragment_dashboard" />
     <fragment
         android:id="@+id/requestCardFragment"
-        android:name="com.example.fundallassessment.fragments.RequestCardFragment"
+        android:name="com.example.fundallassessment.ui.RequestCardFragment"
         android:label="fragment_request_card"
         tools:layout="@layout/fragment_request_card" />
     <fragment
         android:id="@+id/analyticsFragment"
-        android:name="com.example.fundallassessment.fragments.AnalyticsFragment"
+        android:name="com.example.fundallassessment.ui.AnalyticsFragment"
         android:label="fragment_analytics"
         tools:layout="@layout/fragment_analytics" />
 </navigation>
